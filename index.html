@@ -4,16 +4,14 @@
     </head>
     <body>
         <div style="width:640px;height:480px;max-width:100%">
-  <div id="emulator_player6538779fb1e48"></div>
-      <script type="text/javascript">
-        var NepPlayer = "#emulator_player6538779fb1e48";
-        var NepEmu = "neogeo";
-        var neogeoBios = "/wp-content/themes/emutron/static/neogeo.zip"; var neogeoCPU = "190";
-        var NepLang = "en";
-        var gameUrl = "https://myemulator.online/wp-content/uploads/2022/07/s1945p.zip";
-        var NepAutoStart = true;
-        var NepMaxWidth = "640px";
-        var NepMaxHeight = "480px";
-      </script>
+  <div id="game"></div>
+</div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_biosUrl = ''; 
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'neocd';
+</script>
+<script src="https://www.emulatorjs.com/loader.js"></script>
     </body>
 </html>
